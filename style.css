@@ -9,4 +9,46 @@
   background-image: url(images/background.png);
   background-position: center;
   background-size: cover;
+  position:relative;
+}
+
+.logo{
+  width: 250px;
+  height:100px;
+  position: absolute;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo img{
+  width: 80px;
+}
+
+.sidebar{
+  width: 250px;
+  height: 100vh;
+  top: 0;
+  left:0;
+  background: rgba(255,255,255,0.6);
+  position: absolute;
+}
+
+.text-box{
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 45%;
+  text-align: center;
+}
+
+.text-box h1{
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.text-box h4{
+  font-size: 28px;
+  font-weight: 100;
 }
