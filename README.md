@@ -2,4 +2,4 @@
 
 # Author : Joshua Owusu Ankomah
 
-![](images/wireframe.png)
+![](images/wireframe1.png)
